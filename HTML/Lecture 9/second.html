@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+</head>
+
+<body>
+    <h1>Job Application</h1>
+    <form action="">
+        <label for="empName">Name</label>
+        <input type="text" name="empName" id="empName">
+        <br /> <br />
+
+        <label for="empEmail">Email</label>
+        <input type="email" name="empEmail" id="empEmail">
+        <br /> <br />
+
+        <label for="empResume">Resume</label>
+        <input type="file" name="empResume" id="empResume">
+        <br /> <br />
+
+        <label for="empExp">Experience (in Year)</label>
+        <input type="number" name="empExp" id="empExp" min="0" max="50">
+        <br /> <br />
+
+        <fieldset>
+            <legend>Skills</legend>
+            <label for="skill1">Python</label>
+            <input type="checkbox" name="skill1" id="skill1">
+            <br /> <br />
+
+            <label for="skill2">Node js</label>
+            <input type="checkbox" name="skill2" id="skill2">
+            <br /> <br />
+
+            <label for="skill3">Next js</label>
+            <input type="checkbox" name="skill3" id="skill3">
+            <br /> <br />
+        </fieldset>
+        <br /> <br />
+
+        <label for="empedu">Higher Education</label>
+        <select name="empedu" id="empedu">
+            <option value="">BCA</option>
+            <option value="">BTECH</option>
+            <option value="">MCA</option>
+            <option value="">MTECH</option>
+        </select>
+        <br /> <br />
+
+        <fieldset>
+            <legend>Availability</legend>
+            <label for="empavailable1">Full Time</label>
+            <input type="radio" name="radio" id="empavailable1">
+
+            <label for="empavailable2">Part Time</label>
+            <input type="radio" name="radio" id="empavailable2">
+
+            <label for="empavailable3">Work From Home</label>
+            <input type="radio" name="radio" id="empavailable3">
+        </fieldset>
+        <br /> <br />
+
+        <label for="empComments">Additional Comments</label> <br />
+        <textarea name="empComments" id="empComments" rows="10" cols="40"></textarea>
+        <br /> <br />
+
+        <input type="submit" value="Submit Application">
+
+    </form>
+</body>
+
+</html>
